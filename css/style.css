@@ -116,6 +116,7 @@ body {
 
 #gloval-nav ul {
   list-style: none;
+  opacity: 0;
 }
 
 #gloval-nav ul li {
