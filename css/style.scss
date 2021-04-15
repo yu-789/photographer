@@ -20,6 +20,7 @@ body {
 #header_sp {
     height: 50px;
     position: relative;
+    background: #030303;
 
     h1 {
         font-family: 'Lato', sans-serif;
@@ -84,20 +85,20 @@ transform: rotate(-45deg);
     z-index: 1000;
 }
 
-// #container {
-//     z-index: 900;
-// }
+#container {
+    z-index: 900;
+}
 
 
 #gloval-nav {
-    background: #000;
+    background: #030303;
     color: #fff;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 990;
+    z-index: 900;
     text-align: center;
     display: flex;
     visibility: hidden;
@@ -106,7 +107,8 @@ transform: rotate(-45deg);
     align-items: center;
     font-size: 29px;
     opacity: 0;
-    transition: opacity 0.6s ease, visibility 0.6s ease;
+    // transition: opacity 0.6s ease, visibility 0.6s ease;
+
 
     ul {
         list-style: none;
