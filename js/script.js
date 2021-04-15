@@ -71,7 +71,7 @@ $(window).scroll(function(){
   }
 
   //biographyからcontactの間はこれ
-  else if ($(window).scrollTop() > $('#biography').offset().top - timing &&　$(window).scrollTop() < $('#contact').offset().top){
+  else if ($(window).scrollTop() > $('#biography').offset().top - timing &&　$(window).scrollTop() < $('#contact').offset().top - 110){
     $("body").css("background", "#3B3E29");
   }
 
