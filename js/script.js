@@ -5,7 +5,17 @@ $('#hamburger').on('click', function() {
 
 $("a").click(function() {
     $('body').removeClass('open');
-}) 
+})
+
+// gloval-navを最初に一瞬表示させない
+    $('#gloval-nav').hide();
+    $(window).on('load', function() {
+        $('#gloval-nav').fadeIn(100);
+    });
+
+
+
+
 
 
 // スライダー
@@ -101,19 +111,6 @@ $(window).scroll(function(){
         }
     });
   });
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 // PAGE TOP
