@@ -10,7 +10,7 @@ $("a").click(function() {
 // gloval-navを最初に一瞬表示させない
     $('#gloval-nav').hide();
     $(window).on('load', function() {
-        $('#gloval-nav').fadeIn(100);
+        $('#gloval-nav').fadeIn(1000);
     });
 
 
