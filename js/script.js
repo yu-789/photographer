@@ -7,15 +7,6 @@ $("a").click(function() {
     $('body').removeClass('open');
 })
 
-// gloval-navを最初に一瞬表示させない
-    $('#gloval-nav').hide();
-    $(window).on('load', function() {
-        $('#gloval-nav').fadeIn(1000);
-    });
-
-
-
-
 
 
 // スライダー
