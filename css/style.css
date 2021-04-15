@@ -657,8 +657,11 @@ footer p {
   max-width: 1300px;
   width: 100%;
   height: 95px;
+  position: fixed;
+  left: 0;
+  right: 0;
   margin: 0 auto;
-  position: relative;
+  z-index: 1100;
 }
 
 #header_pc nav {
@@ -685,6 +688,7 @@ footer p {
 }
 
 #top_pc {
+  padding-top: 95px;
   padding-bottom: 90px;
 }
 
