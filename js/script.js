@@ -80,12 +80,12 @@ $(window).scroll(function(){
   var timing = 1; //　変化するタイミングを微調整する
 
   //aboutからworkの間はこれ
-  if ($(window).scrollTop() > $('#about').offset().top - timing &&　$(window).scrollTop() < $('#work').offset().top){
+  if ($(window).scrollTop() > $('#about').offset().top - timing &&　$(window).scrollTop() < $('#work').offset().top - 1){
     $("body").css("background", "#2E3743");
   }
 
   //newsからbiographyの間はこれ
-  else if ($(window).scrollTop() > $('#news').offset().top - timing &&　$(window).scrollTop() < $('#biography').offset().top){
+  else if ($(window).scrollTop() > $('#news').offset().top - timing &&　$(window).scrollTop() < $('#biography').offset().top - 1){
     $("body").css("background", "#411B1B");
   }
 
